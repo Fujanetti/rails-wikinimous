@@ -1,0 +1,31 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+
+.article-list ul {
+  list-style: none;
+}
+
+.article-list {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.article {
+  margin: 100px auto;
+  color: #23527C;
+  font-size: 30px;
+}
+
+.article p {
+  color: grey;
+  font-size: 20px;
+}
+
+.container {
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+}

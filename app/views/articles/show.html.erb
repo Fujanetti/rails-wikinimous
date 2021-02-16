@@ -1,0 +1,10 @@
+  <section class="article-list mt-5">
+    <ul class="article">
+      <li><%= @article.title %></li>
+      <p><%= @article.content %></p>
+      <%= link_to "Delete", article_path(id: @article.id), method: :delete, class: "btn-danger btn"%>
+    </ul>
+
+      <%= link_to "Back", articles_path, class: "btn btn-primary" %>
+  </section>
+
